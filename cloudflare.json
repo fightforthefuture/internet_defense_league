@@ -1,0 +1,81 @@
+{
+    "name": "internet_defense_league",
+    "description": "Together we will make the bad guys regret their badness.",
+    "keywords" : [
+        "anti-censorship"
+        ],
+    "version": "0.0.1",
+    "contributors": [
+    {
+        "name" : "Michael Sofaer",
+        "email" : "michael@cloudflare.com"
+    },
+    {
+        "name" : "Chris Joel",
+        "email" : "chris@cloudflare.com"
+    }
+    ],
+        "repository" : {
+            "type" : "git",
+            "url" : "https://github.com/fightforthefuture/internet_defense_league.git"
+        },
+        "main" : "./public/javascripts/stop_censorship.js",
+        "dependencies" : {
+            "jquery"    :  "~1.7"
+        },
+        "licenses" : [
+        {
+            "type": "tos",
+            "url": "http://unlicense.org"
+        }
+    ],
+        "implements" : "AMD",
+        "scripts" : {
+        },
+        "config" : {
+
+            "payment": {},
+            "interface": [
+            {
+                "name": "Badge Position",
+                "id": "position_x",
+                "required": true,
+                "description": "which side of the screen should your badge be displayed on?",
+                "type": "select",
+                "options": [
+                {
+                    "label": "Top Right",
+                    "value": "right"
+                },
+                {
+                    "label": "Top Left",
+                    "value": "left"
+                }
+                ]
+            },
+            {
+                "id": "handle",
+                "name": "Twitter Username",
+                "description": "Enter your Twitter username to include it in the suggested tweet (optional). If there is no Twitter username, your site URL will be included instead.",
+                "type": "string"
+            },
+            {
+                "id": "persistent",
+                "name": "Persistence",
+                "description": "Text is blacked out on first visit only. If you would like this to happen on every visit, switch to the Persistent mode.",
+                "type": "select",
+                "options": [
+                {
+                    "display": "First visit only",
+                    "value": false
+                },
+                {
+                    "display": "Every visit",
+                    "value": true
+                }
+                ]
+            }
+
+            ]
+        }
+}
