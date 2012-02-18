@@ -66,11 +66,11 @@
                 "type": "select",
                 "options": [
                 {
-                    "display": "First visit only",
+                    "label": "First visit only",
                     "value": false
                 },
                 {
-                    "display": "Every visit",
+                    "label": "Every visit",
                     "value": true
                 }
                 ]
