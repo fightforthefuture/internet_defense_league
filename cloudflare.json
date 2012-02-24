@@ -33,7 +33,7 @@
         "scripts" : {
         },
         "config" : {
-
+            "logo" : "./public/images/logo.png",
             "payment": {},
             "interface": [
             {
