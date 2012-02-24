@@ -33,7 +33,12 @@
         "scripts" : {
         },
         "config" : {
-            "logo" : "./public/images/logo.png",
+            "assets" : {
+                "logos" : {
+                    "200px": "./public/images/logo-200.png",
+                    "132px": "./public/images/logo-200.png"
+                }
+            },
             "payment": {},
             "interface": [
             {
