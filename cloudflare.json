@@ -43,7 +43,7 @@
             "details": {
                 "Category": "Anti-Censorship",
                 "Language": "English",
-                "Restictions": "None",
+                "Restrictions": "None",
                 "Supporting": "<a href='http://americancensorship.org'>americancensorship.org</a>",
                 "Script Injection": "<script>alert('No thanks')</script>"
             },
