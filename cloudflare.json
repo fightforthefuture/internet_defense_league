@@ -58,6 +58,12 @@
                 }
                 ]
             },
+            "details": {
+                "Category": "Anti-Censorship",
+                "Language": "English",
+                "Restictions": "None",
+                "Supporting": "<a href='http://americancensorship.org'>americancensorship.org</a>"
+            }
             {
                 "id": "handle",
                 "name": "Twitter Username",
