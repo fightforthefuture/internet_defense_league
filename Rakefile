@@ -1,5 +1,8 @@
+task :default => [:jasmine]
+
 
 begin
+  require 'rubygems'
   require 'jasmine'
   load 'jasmine/tasks/jasmine.rake'
 rescue LoadError
