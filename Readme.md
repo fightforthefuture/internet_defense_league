@@ -16,7 +16,7 @@ If you want to support the efforts to stop American censorship, add this to your
 
 ```html
 <script type="text/javascript"> var CloudFlare = CloudFlare || []; </script>
-<script type="text/javascript" src="//ajax.cloudflare.com/cdn-cgi/nexp/cloudflare.js" async></script>
+<script type="text/javascript" src="//ajax.cloudflare.com/cdn-cgi/nexp/cloudflare.js"></script>
 <script type="text/javascript">
 
 
@@ -24,8 +24,8 @@ If you want to support the efforts to stop American censorship, add this to your
 
         "twitterHandle" : null, // Your Twitter handle; if not provided, your website domain will be used.
         "position_x" : "right", // Badge position - right or left
-        "selector" : "p, h1, .censor_me" // Optional selector for elements to censor. Remove for default.
-        "persistant" : true, // If true, page will always show black bars; if false, it will only show them on the first visit
+        "selector" : "p, h1, .censor_me", // Optional selector for elements to censor. Remove for default.
+        "persistant" : true // If true, page will always show black bars; if false, it will only show them on the first visit
 
     }
 
